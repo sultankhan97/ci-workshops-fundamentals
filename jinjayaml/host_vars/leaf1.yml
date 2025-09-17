@@ -2,7 +2,6 @@
 # LEAF1 specific data model
 
 # Interfaces
-
 interfaces:
   Ethernet1:
     descr: "To_Spine1"
@@ -20,5 +19,7 @@ interfaces:
 
 
 # VLANs
-
+vlans:
+  - id: 10
+    name: "ten"
 
